@@ -1,0 +1,45 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main
+{
+    border: 1px solid pink;
+    max-width: 1000px;
+    margin: auto;
+    height: 100%;
+}
+
+header, section, footer
+{
+    border: 1px solid black;
+    margin: 1rem;
+    text-align: center;
+    background-color: aquamarine;
+    color: pink;
+}
+
+header
+{
+    min-height: 100px;
+}
+section
+{
+    min-height: 300px;
+}
+
+footer
+{
+    min-height: 200px;
+}
+article
+{
+    display: flex;
+}
+.texto1, .texto2
+{
+    width: 100%;
+}
